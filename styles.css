@@ -44,6 +44,7 @@ header {
     text-decoration: none;
     color: rgba(192, 192, 192, 1);
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .topNav a:hover {
