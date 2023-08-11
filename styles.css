@@ -6,11 +6,12 @@
 html, body {
     height: 100%;
     width: 100%;
+    font-size: 16px;
     overflow-x: hidden;
 }
 
 body {
-    font-family: 'Poppins', Arial, 'Century Gothic', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -38,6 +39,11 @@ header {
     margin-bottom: .5rem;
 }
 
+#pageHeading {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
 .topNav a {
     display: inline-block;
     text-align: center;
@@ -60,6 +66,7 @@ header {
 
 main {
     min-width: 85%;
+    max-width: 95%;
     margin: 0 auto;
     box-shadow: -2px 5px 13px rgba(70,130,180, 1),
     2px 5px 13px rgba(70,130,180, 1);
@@ -74,6 +81,28 @@ main {
 section {
     border-bottom: 1px solid red;
     padding: 1em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 1rem;
+}
+
+#about img {
+    max-width: 50%;
+    height: auto;
+    max-height: 12rem;
+    margin: 0 auto;
+    display: block;
+}
+
+#products img {
+    max-width: 90%;
+    height: auto;
+    max-height: 16rem;
 }
 
 footer {
